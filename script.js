@@ -18,3 +18,7 @@ VANTA.DOTS({
     spacing: 23.00,
     showLines: false
 })
+
+$(function() {
+  $('.lazy').Lazy();
+});
