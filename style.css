@@ -24,13 +24,20 @@
     height: 70px;
 }
 
-.ytb {
+.button.ytb {
     background: #ff0000;
     border-color: #ff0000;
     color: #f1f1f1;
 }
 
-.ytb:hover {
+.button[disabled].ytb {
+    background: #ff0000;
+    border-color: #ff0000;
+    color: #f1f1f1;
+    opacity: 0.5;
+}
+
+.button.ytb:hover {
     color: #f1f1f1;
     border-color: #ff0000;
 }
@@ -45,26 +52,33 @@ hr {
     margin-bottom: 20px;
 }
 
-.amz {
+.button.amz {
     background: #0077C1;
     border-color: #0077C1;
     color: #f1f1f1;
 }
 
-.amz:hover {
+.button.amz:hover {
     color: #f1f1f1;
     border-color: #0077C1;
 }
 
-.svn {
+.button.svn {
     background: #258f83;
     border-color: #258f83;
     color: #f1f1f1;
 }
 
-.svn:hover {
+.button.svn:hover {
     color: #f1f1f1;
     border-color: #258f83;
+}
+
+.button[disabled].svn {
+    background: #258f83;
+    color: #f1f1f1;
+    border-color: #258f83;
+    opacity: 0.5;
 }
 
 .svnico {
