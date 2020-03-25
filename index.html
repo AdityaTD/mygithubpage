@@ -32,14 +32,16 @@
 		</script>
 
         <link rel="icon" type="image/png" href="img/logo.png" />
+        <link rel="preload" as="image" href="img/logo.png">
+        <link rel="preload" as="image" href="img/me.jpg">
     </head>
     
     <body>
         <nav class="navbar is-link is-bold shadow2">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item" href="#"><img src="img/logo.png" class="lazy" alt="Aditya Tripathi Logo" style="margin-right: 10px; max-height: 20px; min-height: 20px;"> Aditya Tripathi</a>
-                <div class="navbar-burger burger" data-target="burgermenu">
+                <a class="navbar-item" href="#"><img src="img/logo.png" rel="preload" alt="Aditya Tripathi Logo" style="margin-right: 10px; max-height: 20px; min-height: 20px;"> Aditya Tripathi</a>
+                <div class="navbar-burger burger" data-target="burgermenu" id="navb">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -85,8 +87,6 @@
     <script defer src="three.js"></script>
     <script defer src="vanta.js"></script>
     <script defer src="script.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
     </body>
 
     <!--Developed by Aditya Tripathi-->

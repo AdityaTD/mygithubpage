@@ -1,9 +1,8 @@
 // Burger Menu
-$(document).ready(function() {
-  $(".navbar-burger").click(function() {
-      $(".navbar-burger").toggleClass("is-active");
-      $(".navbar-menu").toggleClass("is-active");
-  });
+var navb = document.getElementById("navb");
+navb.addEventListener("click", function() {
+  navb.classList.toggle("is-active");
+  document.getElementById("menu").classList.toggle("is-active");
 });
 
 // Background Animation
