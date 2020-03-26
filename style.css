@@ -99,6 +99,15 @@ hr {
     width: 18px;
 }
 
+.ituico {
+    background-image: url(img/itunes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+}
+
 .ins {
     background: #ffdc80;
     border-color: #ffdc80;
