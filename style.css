@@ -63,6 +63,28 @@ hr {
     border-color: #0077C1;
 }
 
+.button.spf {
+    background: #1DB954;
+    border-color: #1DB954;
+    color: #f1f1f1;
+}
+
+.button.spf:hover {
+    color: #f1f1f1;
+    border-color: #1DB954;
+}
+
+.button.scd {
+    background: #ff7700;
+    border-color: #ff7700;
+    color: #f1f1f1;
+}
+
+.button.scd:hover {
+    color: #f1f1f1;
+    border-color: #ff7700;
+}
+
 .button.svn {
     background: #258f83;
     border-color: #258f83;
