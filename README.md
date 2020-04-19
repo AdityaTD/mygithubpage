@@ -1,3 +1,10 @@
-# AdityaTD github page
+# AdityaTD.me
+Personal Website Code
 
-## Hello from Hacktoberfest 2018
+## Built Using
+- Bulma.io
+- JQuery
+- Vanta.js
+- FontAwesome
+
+## All Rights Reserved
