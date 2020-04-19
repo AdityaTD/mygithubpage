@@ -7,4 +7,5 @@ Personal Website Code
 - Vanta.js
 - FontAwesome
 
-## All Rights Reserved
+## License
+- All Rights Reserved / No License
