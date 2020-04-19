@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>COVID 19 Tracker - Corona Virus Updates</title>
+
+        <meta property="og:type" content="profile">
+		<meta property="og:title" content="COVID 19 - Corona Virus Statistics">
+		<meta property="og:url" content="https://www.AdityaTD.me/covid">
+		<meta property="og:image" content="https://adityatd.me/img/logo.png">
+		<meta property="profile:first_name" content="Aditya">
+        <meta property="profile:last_name" content="Tripathi">
+        <meta name="author" content="Aditya Nath Tripathi">
+		<meta name="description" content="Live COVID 19 Updates and Statistics with Total Cases, Active Cases, Discharged, Deaths and region based cases.">
+		<meta name="keywords" content="covid, corona virus, corona 19, corona stats, corona india, indian corona, india corona, live corona, live corona stats, live covid, covid stats, corona statistics, covid statistics">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <link rel="stylesheet" href="../style.css">
+
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5MD6C6C');</script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45058479-8"></script>
+		<script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-45058479-8');
+        </script>
+
+        <link rel="icon" type="image/png" href="../img/logo.png" />
+    </head>
+    
+    <body>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MD6C6C"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        
+        <nav class="navbar is-link is-bold shadow2 is-fixed-top">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#"><img src="../img/logo.png" rel="preload" alt="Aditya Tripathi Logo" style="margin-right: 10px; max-height: 20px; min-height: 20px;"> Aditya Tripathi</a>
+                    <div class="navbar-burger burger" data-target="burgermenu" id="navb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
+                </div>
+    
+                <div id="menu" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="../"><i class="fas fa-home bicon"></i>Home</a>
+                        <a class="navbar-item" href="aakhri"><i class="fas fa-music bicon"></i>Latest Release</a>
+                        <a class="navbar-item" href="https://forms.gle/XX3VBjr8MjhqHUQB9" target="_top" rel="noreferrer"><i class="fas fa-envelope-square bicon"></i>Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero is-bold is-dark is-fullheight">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-centered">
+                    <div class="column is-half">
+                    <div class="card shadow1">
+                        <div class="card-content">
+                            <div class="content has-text-centered">
+                                <p class="title has-text-dark">COVID 19 India</p>
+                                <p class="subtitle has-text-dark">Live Summary and Regional Statistics</p>
+                                <strong><p class="has-text-dark streaming">Sourced from <a href="https://www.mohfw.gov.in/" rel="noreferrer" target="_blank">The Ministry of Health and Family Welfare</a> and separately from <a href="https://github.com/amodm/api-covid19-in#unofficial-sources" rel="noreferrer" target="_blank">unofficial sources</a>.</p></strong>
+                                <hr>
+                                <div class="has-text-centered">
+                                    <strong><p class="bhead">Active Cases</p></strong>
+                                    <p class="button bgroup shadow1 is-success data" id="covid-act" style="cursor: default;">Loading...</p>
+
+                                    <strong><p class="bhead">Total Cases</p></strong>
+                                    <p class="button bgroup shadow1 is-info data" id="covid-tot" style="cursor: default;">Loading...</p>
+
+                                    <strong><p class="bhead">Discharged</p></strong>
+                                    <p class="button bgroup shadow1 is-warning data" id="covid-dis" style="cursor: default;">Loading...</p>
+
+                                    <strong><p class="bhead">Deaths</p></strong>
+                                    <p class="button bgroup shadow1 is-danger data" id="covid-det" style="cursor: default;">Loading...</p>
+                                </div>
+                                <hr>
+                                <table class="table is-striped is-narrow" id="covid-tab">
+                                    <tr class="th">
+                                        <th>Region</th>
+                                        <th class="has-text-centered">Active</th>
+                                        <th class="has-text-centered">Total</th>
+                                        <th class="has-text-centered">Discharged</th>
+                                        <th class="has-text-centered">Deaths</th>
+                                    </tr>
+                                </table>
+                                <strong><p>Learn more about Corona Virus at <a href="https://www.mohfw.gov.in/" rel="noreferrer" target="_blank">Ministry of Health and Family Welfare</a></p></strong>
+                                <hr>
+                                <a href="https://adityatd.me" rel="noreferrer">Back to Home</a> | <a href="https://forms.gle/XX3VBjr8MjhqHUQB9" target="_top">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="./covid.js"></script>
+    </body>
+
+    <!--Developed by Aditya Tripathi-->
+</html>
