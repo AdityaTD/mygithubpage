@@ -61,13 +61,16 @@
 
         <section class="hero is-bold is-dark is-fullheight">
             <div class="hero-body">
-                    <div class="card shadow1">
+                    <div class="card shadow1 center" style="width: 80%;">
                         <div class="card-content">
                             <div class="content has-text-centered">
                                 <p class="title has-text-dark">COVID 19 India</p>
                                 <p class="subtitle has-text-dark">Live Summary and Regional Statistics</p>
+                                <strong><p>Last Updated At:</strong> <span id="covid-upd">Loading...</span></p>
                                 <strong><p class="has-text-dark streaming">Sourced from <a href="https://www.mohfw.gov.in/" rel="noreferrer" target="_blank">The Ministry of Health and Family Welfare</a> and separately from <a href="https://github.com/amodm/api-covid19-in#unofficial-sources" rel="noreferrer" target="_blank">unofficial sources</a>.</p></strong>
+                                
                                 <hr>
+                                
                                 <div class="columns has-text-centered">
                                     <div class="column">
                                     <strong><p class="bhead">Active Cases</p></strong>
@@ -87,22 +90,26 @@
                                     <div class="column">
                                     <strong><p class="bhead">Deaths</p></strong>
                                     <p class="button bgroup shadow1 is-danger data" id="covid-det" style="cursor: default;">Loading...</p>
-                                    </div>
                                 </div>
-                                <hr>
-                                <table class="table is-striped is-narrow" id="covid-tab" style="display: block; overflow: auto;">
-                                    <tr class="th">
-                                        <th>Region</th>
-                                        <th class="has-text-centered">Active</th>
-                                        <th class="has-text-centered">Total</th>
-                                        <th class="has-text-centered">Discharged</th>
-                                        <th class="has-text-centered">Deaths</th>
-                                    </tr>
-                                </table>
-                                <strong><p>Learn more about Corona Virus at <a href="https://www.mohfw.gov.in/" rel="noreferrer" target="_blank">Ministry of Health and Family Welfare</a></p></strong>
-                                <hr>
-                                <a href="https://adityatd.me" rel="noreferrer">Back to Home</a> | <a href="https://forms.gle/XX3VBjr8MjhqHUQB9" target="_top">Contact Me</a>
                             </div>
+
+                            <hr>
+
+                            <div style="overflow-x:auto;">
+                            <table class="table is-striped" id="covid-tab">
+                                <tr class="th">
+                                    <th>Region</th>
+                                    <th class="has-text-centered">Active</th>
+                                    <th class="has-text-centered">Total</th>
+                                    <th class="has-text-centered">Discharged</th>
+                                    <th class="has-text-centered">Deaths</th>
+                                </tr>
+                            </table>
+                            </div>
+
+                            <strong><p>Learn more about Corona Virus at <a href="https://www.mohfw.gov.in/" rel="noreferrer" target="_blank">Ministry of Health and Family Welfare</a></p></strong>
+                            <hr>
+                            <a href="https://adityatd.me" rel="noreferrer">Back to Home</a> | <a href="https://forms.gle/XX3VBjr8MjhqHUQB9" target="_top">Contact Me</a>
                     </div>
                 </div>
             </div>

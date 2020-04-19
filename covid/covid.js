@@ -4,6 +4,7 @@
 
         $.get(api, function(res){
             if(res.success) {
+                $("#covid-upd").text(new Date(res.lastOriginUpdate).toLocaleString());
                 $("#covid-act").text((res.data.summary.total - (res.data.summary.deaths + res.data.summary.discharged)).toLocaleString());
                 $("#covid-tot").text((res.data.summary.total).toLocaleString());
                 $("#covid-dis").text((res.data.summary.discharged).toLocaleString());
