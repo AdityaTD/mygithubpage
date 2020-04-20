@@ -6,6 +6,7 @@ Personal Website Code
 - JQuery
 - Vanta.js
 - FontAwesome
+- Charts.js
 
 ## License
 - All Rights Reserved / No License
