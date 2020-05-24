@@ -63,6 +63,17 @@ hr {
     border-color: #0077C1;
 }
 
+.button.linkin {
+    background: #0e76a8;
+    border-color: #0e76a8;
+    color: #f1f1f1;
+}
+
+.button.linkin:hover {
+    color: #f1f1f1;
+    border-color: #0e76a8;
+}
+
 .button.spf {
     background: #1DB954;
     border-color: #1DB954;
