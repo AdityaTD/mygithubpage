@@ -42,6 +42,17 @@
     border-color: #ff0000;
 }
 
+.button.linkedin {
+    background: #0e76a8;
+    border-color: #0e76a8;
+    color: #f1f1f1;
+}
+
+.button.linkedin:hover {
+    color: #f1f1f1;
+    border-color: #0e76a8;
+}
+
 hr {
     background-color: #212121;
     opacity: 20%;
@@ -61,17 +72,6 @@ hr {
 .button.amz:hover {
     color: #f1f1f1;
     border-color: #0077C1;
-}
-
-.button.linkin {
-    background: #0e76a8;
-    border-color: #0e76a8;
-    color: #f1f1f1;
-}
-
-.button.linkin:hover {
-    color: #f1f1f1;
-    border-color: #0e76a8;
 }
 
 .button.spf {
