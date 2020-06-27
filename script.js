@@ -7,7 +7,7 @@ navb.addEventListener("click", function() {
 
 // Background Animation
 VANTA.DOTS({
-    el: ".hero",
+    el: ".animatedbg",
     mouseControls: false,
     touchControls: true,
     minHeight: 200.00,

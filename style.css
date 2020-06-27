@@ -114,6 +114,17 @@ hr {
     opacity: 0.5;
 }
 
+.button.gplay:hover {
+    color: #f1f1f1;
+    border-color: #f4522b;
+}
+
+.button.gplay {
+    background: #f4522b;
+    color: #f1f1f1;
+    border-color: #f4522b;
+}
+
 .svnico {
     background-image: url(img/saavn.png);
     background-repeat: no-repeat;
@@ -163,4 +174,17 @@ hr {
 .center {
     margin-left:auto; 
     margin-right:auto;
+}
+
+.sstar {
+    background-image: url(img/shootingstar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(18px);
+    z-index: -100;
+    background-position: center;
+}
+
+.heroimg {
+    z-index: 2;
 }
