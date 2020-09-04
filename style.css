@@ -188,3 +188,14 @@ hr {
 .heroimg {
     z-index: 2;
 }
+
+.button.twitch {
+    background: #6441A5;
+    border-color: #6441A5;
+    color: #f1f1f1;
+}
+
+.button.twitch:hover {
+    color: #f1f1f1;
+    border-color: #6441A5;
+}
