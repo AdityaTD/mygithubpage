@@ -1,5 +1,5 @@
-# AdityaTD.me
-Personal Website Code
+# AdityaTripathi.co.in
+Personal Website Deployed On GH Pages
 
 ## Built Using
 - Bulma.io

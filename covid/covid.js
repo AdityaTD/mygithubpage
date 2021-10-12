@@ -22,7 +22,7 @@
                     $("#covid-tab").append(o + loc + act + tot + dis + det + l)
                 }
             } else {
-                window.alert("There has been error, please try again later or email contact@adityatd.me")
+                window.alert("There has been error, please try again later or email contact@adityatripathi.co.in")
             }
         });
 
